@@ -1,0 +1,100 @@
+
+.container{
+   background-color:black;
+   
+}
+.header1{
+    padding-top: 4px;
+    background-color:gray;
+    display: block;
+    
+}
+.header1 ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-size: 1rem;
+    
+}
+.header1 ul a {
+    text-decoration: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    color:white;
+}
+.header1 ul a:hover{
+    background-color: red;
+    text-decoration: red;
+}
+.sec-1{
+    background-color: white;
+    display: flex;
+}
+.sec-1div1 p{
+text-align: center;
+font-size: 15px;
+font-family: cursive;
+color: gray;
+}
+.sec-1div1 h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:black;
+}
+.sec-1div2{
+    padding-left: 25rem;
+}
+.sec2{
+    background-color: white;
+}
+.div4 h1{
+    text-align: center;
+    margin-top: 2%;
+    font-style: oblique;
+    font-family:'Times New Roman', Times, serif ;
+}
+.sec2 img{
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+}
+.sec2 p{
+    font-size: 18px;
+    text-align: center;
+    font-family: monospace;
+}
+.sec3 {
+    background-color: white;
+}
+.sec3 h1{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.sec3 img{
+    display:block;
+margin: 0 auto;
+}
+.sec3 p{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.foot{
+    background-color: white;
+}
+.foot h1{
+    text-align:center;
+}
+.foot li{
+    color: black;
+    text-align: center;
+    list-style-type: none;
+}
+.foot p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+#heading{
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
